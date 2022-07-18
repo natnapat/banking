@@ -6,11 +6,8 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
- 
-make: *** No rule to make target `all'.  Stop.
 
-
-# Make data base, printed on Sun Jul 17 17:46:14 2022
+# Make data base, printed on Mon Jul 18 14:38:35 2022
 
 # Variables
 
@@ -55,7 +52,7 @@ ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.BYK66VhLQN/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.P9Vb2NxraY/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -95,7 +92,7 @@ USER = natnapat
 # makefile
 .DEFAULT_GOAL := postgres
 # environment
-TERM_SESSION_ID = B9DD6BE7-6319-42EF-AAAB-BCFCD9D7DDB9
+TERM_SESSION_ID = 16501E36-5457-4F8D-B32E-6E328C506843
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # default
@@ -121,7 +118,7 @@ MFLAGS = -Rrqp
 # environment
 TERM_PROGRAM_VERSION = 440
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.12907432684.12907432690.D0AB4060-509A-46D7-94E0-DC3EC3A9B524
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.12907432684.12907432690.778E37F0-CE4C-4383-91AC-F4734583BE17
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -149,7 +146,7 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 4237
+VSCODE_PID = 12269
 # variable set hash-table stats:
 # Load=68/1024=7%, Rehash=0, Collisions=2/92=2%
 
@@ -305,6 +302,9 @@ mock:
 
 # files hash-table stats:
 # Load=16/1024=2%, Rehash=0, Collisions=0/39=0%
+ 
+make: *** No rule to make target `all'.  Stop.
+
 # VPATH Search Paths
 
 # No `vpath' search paths.
@@ -314,9 +314,8 @@ mock:
 # # of strings in strcache: 1
 # # of strcache buffers: 1
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
- 
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Sun Jul 17 17:46:14 2022
+# Finished Make data base on Mon Jul 18 14:38:35 2022
 
  
