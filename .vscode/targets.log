@@ -6,8 +6,11 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
+ 
+make: *** No rule to make target `all'.  Stop.
 
-# Make data base, printed on Mon Jul 18 14:38:35 2022
+
+# Make data base, printed on Wed Aug 17 17:01:38 2022
 
 # Variables
 
@@ -31,6 +34,7 @@ CURDIR := /Users/natnapat/banking
 SHELL = /bin/sh
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+ 
 # environment
 _ = /usr/bin/make
 # makefile (from `Makefile', line 1)
@@ -52,7 +56,7 @@ ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.P9Vb2NxraY/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.29oopAXB9a/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -68,7 +72,7 @@ MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
 # environment
 VSCODE_CLI = 1
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/natnapat/Library/Application Support/Code/CachedData/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
+VSCODE_CODE_CACHE_PATH = /Users/natnapat/Library/Application Support/Code/CachedData/6d9b74a70ca9c7733b29f0456fd8195364076dda
 # environment
 LOGNAME = natnapat
 # environment
@@ -92,7 +96,7 @@ USER = natnapat
 # makefile
 .DEFAULT_GOAL := postgres
 # environment
-TERM_SESSION_ID = 16501E36-5457-4F8D-B32E-6E328C506843
+TERM_SESSION_ID = E7AAE052-FCA4-4456-92A0-C08FB8E85118
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # default
@@ -106,7 +110,7 @@ TMPDIR = /var/folders/8p/lynfcy5d3gj526892csv0ddw0000gn/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/natnapat/Library/Application Support/Code/1.69.1-main.sock
+VSCODE_IPC_HOOK = /Users/natnapat/Library/Application Support/Code/1.70.1-main.sock
 # environment
 MallocNanoZone = 0
 # makefile
@@ -118,7 +122,7 @@ MFLAGS = -Rrqp
 # environment
 TERM_PROGRAM_VERSION = 440
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.12907432684.12907432690.778E37F0-CE4C-4383-91AC-F4734583BE17
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.12907793062.12907793068.930481BD-40EA-4DA6-903C-80E5B9E4AC0F
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -146,9 +150,10 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 12269
+VSCODE_PID = 18597
 # variable set hash-table stats:
 # Load=68/1024=7%, Rehash=0, Collisions=2/92=2%
+ 
 
 # Pattern-specific Variable Values
 
@@ -156,7 +161,7 @@ VSCODE_PID = 12269
 
 # Directories
 
-# . (device 16777220, inode 12907120675): 22 files, no impossibilities.
+# . (device 16777222, inode 12907120675): 22 files, no impossibilities.
 
 # 22 files, no impossibilities in 1 directories.
 
@@ -252,6 +257,7 @@ createdb:
 # Not a target:
 .DEFAULT:
 #  Implicit rule search has not been done.
+ 
 #  Modification time never checked.
 #  File has not been updated.
 
@@ -302,9 +308,6 @@ mock:
 
 # files hash-table stats:
 # Load=16/1024=2%, Rehash=0, Collisions=0/39=0%
- 
-make: *** No rule to make target `all'.  Stop.
-
 # VPATH Search Paths
 
 # No `vpath' search paths.
@@ -316,6 +319,6 @@ make: *** No rule to make target `all'.  Stop.
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Mon Jul 18 14:38:35 2022
+# Finished Make data base on Wed Aug 17 17:01:38 2022
 
  
